@@ -137,3 +137,36 @@ def render(folder, spec, poll_seconds=15, timeout_minutes=40):
 if __name__ == "__main__":
     folder = sys.argv[1]
     render(folder, json.load(open(os.path.join(folder, "spec.json"))))
+
+
+# ───── Narration only (no avatar): HeyGen Voice text-to-speech ─────
+# https://developers.heygen.com/docs/voices/heygen-voice-speech.md
+# heygen-voice-1-turbo-free is free until Nov 30, 2026 (HeyGen's stated
+# offer); after that set narrator_model in presenter.json to a paid model.
+NADINE = "83548de556df48ba8c09c42a57c51d85"  # public voice named in HeyGen's docs
+
+
+def narrator_settings(spec):
+    p = json.load(open(os.path.join(ROOT, "presenter.json")))
+    p.update(spec.get("narrator", {}))
+    return {"voice_id": p.get("narrator_voice_id") or NADINE,
+            "model": p.get("narrator_model") or "heygen-voice-1-turbo-free"}
+
+
+def tts(text, out_wav, settings):
+    """Speak one segment. Returns {"duration", "chars": [[ch, start, end], ...]}
+    and writes the WAV. Cached next to the WAV, keyed on text + voice."""
+    import hashlib
+    meta_path = out_wav[:-4] + ".json"
+    key = hashlib.sha256(json.dumps([text, settings], sort_keys=True).encode()).hexdigest()[:16]
+    if os.path.exists(out_wav) and os.path.exists(meta_path):
+        meta = json.load(open(meta_path))
+        if meta.get("key") == key:
+            return meta
+    res = _req("POST", "/v3/models/audio/tts", {"model": settings["model"], "voice_id": settings["voice_id"],
+                                                 "text": text, "language": "en", "with_timestamps": True})["data"]
+    _download(res["audio_url"], out_wav)
+    meta = {"key": key, "duration": res.get("duration"),
+            "chars": [[c["text"], c["start_time"], c["end_time"]] for c in res.get("original_characters") or []]}
+    json.dump(meta, open(meta_path, "w"))
+    return meta

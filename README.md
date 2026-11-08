@@ -16,7 +16,22 @@ Daily YouTube Shorts for the **Treatments HUB** channel, covering every category
    The folder then moves to `published/` with the YouTube link in `result.json`.
 3. Images for cards go into Google Drive (yoavgersi@gmail.com): `TreatmentsHub YouTube / images - new`.
 
-**Segment types** in `script`: `presenter` (the avatar on screen, with captions), `compare`
+**Site tours (`"mode": "site"`, the current format):** `scripts/capture_site.mjs` captures the
+live page at phone width (overlays removed) and records where each named `target` sits.
+`scripts/site_video.py` shows the page in a browser frame and moves the camera from target to
+target (`shot`: `target`, `scroll_to`, `highlight`, `zoom`, `pad`, `align`), while a HeyGen voice
+narrates each segment (text-to-speech, no avatar; one call per segment, with per-character
+timings for the captions). If a target's text is no longer on the live page, the build stops
+instead of narrating something the page doesn't show. `caption_replace` maps spoken spellings
+back to brand spellings ("alt R X" -> "altRx"). The voice is `narrator_voice_id` in
+`presenter.json` (default: HeyGen's public voice Nadine) on the free `heygen-voice-1-turbo-free`
+model, which HeyGen says is free until Nov 30, 2026. Layout test without a key:
+`python3 scripts/site_video.py queue/<folder> --fake-voice`.
+
+The presenter (avatar) specs written for Nov 9-15 are parked in `drafts/presenter-week/`
+until a presenter is chosen.
+
+**Segment types** in a presenter `script`: `presenter` (the avatar on screen, with captions), `compare`
 (one criterion, a row per provider), `points` (a title and 2-4 bullets), `card` (a photo with
 a headline). A disclaimer segment is added automatically to every video.
 

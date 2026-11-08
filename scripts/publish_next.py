@@ -5,7 +5,8 @@ queue/<YYYY-MM-DD-slug>/ holds spec.json (+ images). Folders are taken in name
 order, and only once their date prefix is today or earlier, so videos can be
 queued ahead. After upload the folder moves to published/ with result.json.
 
-Specs with a "script" use the HeyGen presenter (needs HEYGEN_API_KEY);
+Specs with "mode": "site" are site tours narrated by a HeyGen voice (needs
+HEYGEN_API_KEY); other specs with a "script" use the HeyGen presenter;
 specs with "slides" are image-only. --preview NAME builds one folder (due or
 not) to video.mp4 without uploading, for the workflow's preview artifact.
 """
@@ -31,17 +32,22 @@ else:
     name = ready[0]
 folder = os.path.join(queue, name)
 spec = json.load(open(os.path.join(folder, "spec.json")))
-presenter = "script" in spec
+site = spec.get("mode") == "site"
+presenter = "script" in spec and not site
 
 # Check every credential before spending HeyGen credits on a render.
-need = ([] if a.preview else ["YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"]) + (["HEYGEN_API_KEY"] if presenter else [])
+need = ([] if a.preview else ["YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"]) + (["HEYGEN_API_KEY"] if presenter or site else [])
 missing = [k for k in need if not os.environ.get(k)]
 if missing:
     print(f"Not configured yet, skipping {name}: missing secrets {', '.join(missing)} (see README).")
     sys.exit(0)
 
 video = os.path.join(folder, "video.mp4")
-(build.build_presenter if presenter else build.build)(folder, video)
+if site:
+    import site_video  # noqa: E402
+    site_video.build_site(folder, video)
+else:
+    (build.build_presenter if presenter else build.build)(folder, video)
 if a.preview:
     print(f"Preview built: {video}")
     sys.exit(0)
@@ -50,7 +56,7 @@ import upload  # noqa: E402
 vid = upload.upload(video, spec)
 dest = os.path.join(ROOT, "published", name)
 shutil.move(folder, dest)
-for big in ("video.mp4", "presenter.mp4"):  # keep the repo small; YouTube and HeyGen have the files
+for big in ("video.mp4", "presenter.mp4", "capture/page.png"):  # keep the repo small; YouTube and HeyGen have the files
     p = os.path.join(dest, big)
     if os.path.exists(p):
         os.remove(p)

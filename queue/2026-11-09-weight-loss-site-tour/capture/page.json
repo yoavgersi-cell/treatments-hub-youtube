@@ -1,0 +1,69 @@
+{
+  "url": "https://www.treatmentshub.com/weight-loss",
+  "width": 400,
+  "height": 20753,
+  "scale": 2.5,
+  "targets": {
+    "h1": {
+      "x": 16,
+      "y": 210.125,
+      "w": 368,
+      "h": 49.25
+    },
+    "byline": {
+      "x": 16,
+      "y": 378.5,
+      "w": 327.5,
+      "h": 39
+    },
+    "embody": {
+      "x": 16,
+      "y": 433.5,
+      "w": 368,
+      "h": 567.9375
+    },
+    "embody_pts": {
+      "x": 33,
+      "y": 657.75,
+      "w": 334,
+      "h": 138.3125
+    },
+    "eden": {
+      "x": 16,
+      "y": 1017.4375,
+      "w": 368,
+      "h": 537.9375
+    },
+    "eden_pts": {
+      "x": 33,
+      "y": 1211.6875,
+      "w": 334,
+      "h": 138.3125
+    },
+    "altrx": {
+      "x": 16,
+      "y": 1571.375,
+      "w": 368,
+      "h": 473.5625
+    },
+    "altrx_pts": {
+      "x": 33,
+      "y": 1735.625,
+      "w": 334,
+      "h": 103.9375
+    },
+    "choose": {
+      "x": 16,
+      "y": 9081.203125,
+      "w": 368,
+      "h": 81.59375
+    },
+    "checks": {
+      "x": 16,
+      "y": 9326.734375,
+      "w": 368,
+      "h": 369.4375
+    }
+  },
+  "targets_key": "{\"altrx\": {\"closest\": \"article\", \"text\": \"Read full altRx review\"}, \"altrx_pts\": {\"closest\": \"ul\", \"text\": \"Brand-name options too: Zepbound and Wegovy\"}, \"byline\": {\"selector\": \"[data-review-status=reviewed]\"}, \"checks\": {\"closest\": \"ul\", \"text\": \"Published, all-inclusive pricing\"}, \"choose\": {\"text\": \"How to Choose a GLP-1 Telehealth Provider\"}, \"eden\": {\"closest\": \"article\", \"text\": \"Read full Eden review\"}, \"eden_pts\": {\"closest\": \"ul\", \"text\": \"One all-inclusive price: no membership\"}, \"embody\": {\"closest\": \"article\", \"text\": \"Read full embody review\"}, \"embody_pts\": {\"closest\": \"ul\", \"text\": \"5-minute health qualifier\"}, \"h1\": {\"text\": \"Best GLP-1 Weight Loss Providers of 2026\"}}"
+}
