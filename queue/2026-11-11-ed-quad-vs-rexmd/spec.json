@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-11-ed-quad-vs-rexmd",
+  "vertical": "ed",
+  "title": "Quad by MEDVi vs Rex MD: Two Very Different Online ED Options",
+  "description": "Quad by MEDVi and Rex MD compared: a single compounded dissolvable dose versus a wide menu of branded and generic options.\n\nWhat we compared:\n• Quad by MEDVi: compounded 4-in-1 (\"quad-blend\") formula in a single dose; fast-dissolving, no pill to swallow; Rx-only after a licensed-provider review; prescribed and managed through MEDVi telehealth\n• Rex MD: branded and generic Viagra and Cialis, plus daily tadalafil; Ignite ED gummy (sildenafil + tadalafil compound); US-licensed provider review; free 2-day discreet delivery\n\nProvider details as listed in our reviews (updated Oct 9, 2026). Confirm current options on each provider's site.\n\nFull guide: https://www.treatmentshub.com/ed\nThe comparison page this video is based on was reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (medical content reviewer) on Oct 30, 2026.\n\nImportant:\n• The presenter in this video is AI-generated.\n• TreatmentsHub is a comparison site, not a medical provider. This is general information, not medical advice.\n• Prescription treatment needs an evaluation by a licensed clinician, who decides whether it's right for you.\n• Compounded products are not FDA-approved the way brand or generic pills are; whether one is appropriate is a provider's decision.\n• Never combine an ED medication (PDE5 inhibitor) with nitrates. Tell the clinician about every medication you take.\n• We may earn a commission from partner links. It never affects our rankings.\nHow we rank: https://www.treatmentshub.com/weight-loss/how-we-rank\n\n#ED #MensHealth #Shorts",
+  "tags": [
+    "ed treatment online",
+    "erectile dysfunction treatment",
+    "quad by medvi",
+    "rex md",
+    "sildenafil",
+    "tadalafil",
+    "viagra",
+    "cialis",
+    "daily tadalafil",
+    "ed medication",
+    "telehealth ed",
+    "best ed treatment",
+    "ed gummy",
+    "treatmentshub"
+  ],
+  "category_id": "26",
+  "synthetic_media": true,
+  "script": [
+    {
+      "say": "Hey guys! Looking into ED treatment online? Two of the providers we rank take very different approaches. Here's the difference.",
+      "show": "presenter"
+    },
+    {
+      "say": "Quad by MEDVi is a compounded four-in-one formula in a single, fast-dissolving dose, so there's no pill to swallow. It's prescription only, after a licensed provider review.",
+      "show": "points",
+      "kicker": "Quad by MEDVi",
+      "title": "One dissolvable dose",
+      "points": [
+        "Compounded 4-in-1 formula in a single dose",
+        "Fast-dissolving: no pill to swallow",
+        "Rx-only after a licensed-provider review"
+      ]
+    },
+    {
+      "say": "Rex M D is the big-menu option: branded and generic Viagra and Cialis, daily tadalafil, and its own Ignite gummy, with free two-day discreet delivery.",
+      "show": "points",
+      "kicker": "Rex MD",
+      "title": "The big menu",
+      "points": [
+        "Branded + generic Viagra & Cialis, plus daily tadalafil",
+        "Ignite ED gummy (sildenafil + tadalafil)",
+        "Free 2-day discreet delivery"
+      ]
+    },
+    {
+      "say": "So: if a standard pill didn't work well for you, Quad is worth asking about. If you want an established brand with lots of options, look at Rex M D.",
+      "show": "compare",
+      "title": "Which fits you?",
+      "label": "Best for",
+      "rows": [
+        [
+          "Quad by MEDVi",
+          "Men for whom a single standard ED pill underperformed"
+        ],
+        [
+          "Rex MD",
+          "Men who want a big, established brand with lots of options"
+        ]
+      ]
+    },
+    {
+      "say": "Our full ED ranking, reviewed for medical accuracy, is on treatments hub dot com.",
+      "show": "presenter"
+    }
+  ],
+  "end": {
+    "headline": "Compare online ED treatment",
+    "url": "treatmentshub.com/ed"
+  },
+  "source_note": "Source: treatmentshub.com/ed · page reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (Oct 30, 2026)",
+  "music": "bed.mp3"
+}

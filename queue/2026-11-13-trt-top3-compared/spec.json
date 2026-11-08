@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-13-trt-top3-compared",
+  "vertical": "trt",
+  "title": "Hone Health vs TMates vs Male Excel: Online TRT Compared",
+  "description": "Hone Health, TMates and Male Excel compared on how treatment starts and what ongoing care looks like.\n\nWhat we compared:\n• Hone Health: begins with lab testing to confirm whether testosterone is clinically low; ongoing monitoring with follow-up bloodwork and dose adjustments\n• TMates: TRT-first program; lab testing and a licensed-clinician review; membership model with support built in\n• Male Excel: comprehensive at-home lab testing; TRT medication if prescribed (injections or cream); unlimited provider follow-ups\n\nProvider details as listed in our reviews (updated Sep 14, 2026). Confirm current plans on each provider's site.\n\nFull guide: https://www.treatmentshub.com/trt\nThe comparison page this video is based on was reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (medical content reviewer) on Oct 30, 2026.\n\nImportant:\n• The presenter in this video is AI-generated.\n• TreatmentsHub is a comparison site, not a medical provider. This is general information, not medical advice.\n• Prescription treatment needs an evaluation by a licensed clinician, who decides whether it's right for you.\n• TRT is long-term and can affect fertility; it needs ongoing monitoring by a clinician.\n• We may earn a commission from partner links. It never affects our rankings.\nHow we rank: https://www.treatmentshub.com/weight-loss/how-we-rank\n\n#TRT #Testosterone #Shorts",
+  "tags": [
+    "trt",
+    "testosterone replacement therapy",
+    "online trt",
+    "low testosterone",
+    "low t",
+    "hone health",
+    "tmates",
+    "male excel",
+    "trt clinic online",
+    "testosterone therapy",
+    "mens health",
+    "best trt provider",
+    "treatmentshub"
+  ],
+  "category_id": "26",
+  "synthetic_media": true,
+  "script": [
+    {
+      "say": "Hey guys! Thinking about testosterone therapy online? Here's how our top three TRT providers compare.",
+      "show": "presenter"
+    },
+    {
+      "say": "All three start with labs. Hone Health tests first to confirm whether your testosterone is clinically low. TMates adds a licensed clinician review. Male Excel offers comprehensive at-home testing.",
+      "show": "compare",
+      "title": "It starts with labs",
+      "label": "Getting started",
+      "rows": [
+        [
+          "Hone Health",
+          "Labs first, to confirm testosterone is clinically low"
+        ],
+        [
+          "TMates",
+          "Lab testing plus a licensed-clinician review"
+        ],
+        [
+          "Male Excel",
+          "Comprehensive at-home lab testing"
+        ]
+      ]
+    },
+    {
+      "say": "Then ongoing care. Hone does follow-up bloodwork and dose adjustments. TMates is a membership with support built in. Male Excel includes unlimited provider follow-ups.",
+      "show": "compare",
+      "title": "What happens next",
+      "label": "Ongoing care",
+      "rows": [
+        [
+          "Hone Health",
+          "Follow-up bloodwork and dose adjustments"
+        ],
+        [
+          "TMates",
+          "Membership model with support built in"
+        ],
+        [
+          "Male Excel",
+          "Unlimited provider follow-ups"
+        ]
+      ]
+    },
+    {
+      "say": "TRT is usually long-term, so ask about fertility and monitoring before you start. Full comparison, reviewed for medical accuracy, at treatments hub dot com.",
+      "show": "presenter"
+    }
+  ],
+  "end": {
+    "headline": "Compare online TRT providers",
+    "url": "treatmentshub.com/trt"
+  },
+  "source_note": "Source: treatmentshub.com/trt · page reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (Oct 30, 2026)",
+  "music": "bed.mp3"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-10-hair-loss-top3-compared",
+  "vertical": "hair-loss",
+  "title": "Maximus vs Happy Head vs PeterMD: Online Hair Loss Treatment Compared",
+  "description": "Maximus, Happy Head and PeterMD compared on who they're for, what they prescribe and how the online visit works.\n\nWhat we compared:\n• Maximus: focused on men's hair regrowth; oral finasteride, oral minoxidil and oral dutasteride options plus a compounded topical; a board-certified doctor reviews your questionnaire\n• Happy Head: formulas for both men and women; personalized topical and oral formulas; topical minoxidil up to 8%; dermatologist-founded, free online consultation\n• PeterMD: men-focused; Follicure RX topical spray with minoxidil, finasteride and ketoconazole\n\nProvider details as listed in our reviews (updated Aug 2026). Confirm current options on each provider's site.\n\nFull guide: https://www.treatmentshub.com/hair-loss\nThe comparison page this video is based on was reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (medical content reviewer) on Oct 30, 2026.\n\nImportant:\n• The presenter in this video is AI-generated.\n• TreatmentsHub is a comparison site, not a medical provider. This is general information, not medical advice.\n• Prescription treatment needs an evaluation by a licensed clinician, who decides whether it's right for you.\n• Oral minoxidil is prescribed off-label for hair loss. Finasteride and dutasteride are generally not recommended for women, especially during pregnancy.\n• We may earn a commission from partner links. It never affects our rankings.\nHow we rank: https://www.treatmentshub.com/weight-loss/how-we-rank\n\n#HairLoss #Minoxidil #Shorts",
+  "tags": [
+    "hair loss treatment",
+    "online hair loss treatment",
+    "maximus hair",
+    "happy head",
+    "petermd",
+    "finasteride",
+    "minoxidil",
+    "oral minoxidil",
+    "dutasteride",
+    "hair regrowth",
+    "thinning hair",
+    "male pattern baldness",
+    "hair loss women",
+    "telehealth hair loss",
+    "treatmentshub"
+  ],
+  "category_id": "26",
+  "synthetic_media": true,
+  "script": [
+    {
+      "say": "Hey guys! Thinning hair and shopping online for treatment? Here's how our top three hair-loss providers compare.",
+      "show": "presenter"
+    },
+    {
+      "say": "Who it's for. Maximus focuses on men's regrowth. Happy Head has formulas for both men and women. PeterMD is men-focused.",
+      "show": "compare",
+      "title": "Men, women, or both?",
+      "label": "Who it's for",
+      "rows": [
+        [
+          "Maximus",
+          "Focused on men's hair regrowth"
+        ],
+        [
+          "Happy Head",
+          "Formulas for both men and women"
+        ],
+        [
+          "PeterMD",
+          "Men-focused"
+        ]
+      ]
+    },
+    {
+      "say": "What's on the menu. Maximus offers oral finasteride, minoxidil and dutasteride. Happy Head makes personalized formulas, with topical minoxidil up to eight percent. PeterMD's Follicure spray combines three ingredients in one.",
+      "show": "compare",
+      "title": "What you can get",
+      "label": "Treatment options",
+      "rows": [
+        [
+          "Maximus",
+          "Oral finasteride, minoxidil and dutasteride, plus a compounded topical"
+        ],
+        [
+          "Happy Head",
+          "Personalized formulas; topical minoxidil up to 8%"
+        ],
+        [
+          "PeterMD",
+          "Follicure RX: minoxidil + finasteride + ketoconazole spray"
+        ]
+      ]
+    },
+    {
+      "say": "And the process. At Maximus a board-certified doctor reviews your questionnaire. Happy Head is dermatologist-founded, with a free online consultation.",
+      "show": "points",
+      "kicker": "How it works",
+      "title": "A doctor reviews first",
+      "points": [
+        "Maximus: board-certified doctor reviews your questionnaire",
+        "Happy Head: dermatologist-founded, free online consultation",
+        "Prescription treatments need a medical review"
+      ]
+    },
+    {
+      "say": "Whatever you pick, results need ongoing use. Full comparison, reviewed for medical accuracy, at treatments hub dot com.",
+      "show": "presenter"
+    }
+  ],
+  "end": {
+    "headline": "Compare hair-loss treatments",
+    "url": "treatmentshub.com/hair-loss"
+  },
+  "source_note": "Source: treatmentshub.com/hair-loss · page reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (Oct 30, 2026)",
+  "music": "bed.mp3"
+}

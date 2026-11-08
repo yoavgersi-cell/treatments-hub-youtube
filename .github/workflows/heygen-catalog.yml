@@ -1,0 +1,28 @@
+name: HeyGen presenter catalog
+
+# Run by hand: lists HeyGen presenters and voices into catalog/ so one can be
+# picked for presenter.json. Also proves the HEYGEN_API_KEY secret works.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: List avatars and voices
+        env:
+          HEYGEN_API_KEY: ${{ secrets.HEYGEN_API_KEY }}
+        run: cd scripts && python heygen_catalog.py
+      - name: Commit catalog
+        run: |
+          git config user.name "treatments-hub-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add catalog
+          git diff --cached --quiet || (git commit -m "HeyGen catalog $(date -u +%F)" && git push)

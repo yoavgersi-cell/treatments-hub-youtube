@@ -1,0 +1,78 @@
+{
+  "id": "2026-11-12-medicare-online-therapy",
+  "vertical": "online-therapy",
+  "title": "Does Medicare Cover Online Therapy? Yes, Through 2027 (Which Apps Take It)",
+  "description": "Medicare Part B covers therapy by video from home through at least Dec 31, 2027. What you pay, which online platforms take Medicare, and what to check before open enrollment ends Dec 7, 2026.\n\nKey facts:\n• Medicare Part B covers therapy by video from home, at the same price as in person, through at least Dec 31, 2027 (Medicare.gov; Consolidated Appropriations Act, 2026)\n• Original Medicare: 20% of the Medicare-approved amount after the Part B deductible, $283 in 2026 (CMS)\n• Talkspace and Talkiatry say they take Original Medicare; Headspace works through select Medicare Advantage plans; BetterHelp says Medicare isn't accepted (each company's own help pages, checked Nov 2026)\n• Open enrollment runs Oct 15 - Dec 7, 2026; changes take effect Jan 1, 2027\n\nSources: https://www.medicare.gov/coverage/telehealth · https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles · https://www.medicare.gov/health-drug-plans/open-enrollment\n\nFull guide: https://www.treatmentshub.com/online-therapy/articles/does-medicare-cover-online-therapy\n\nImportant:\n• The presenter in this video is AI-generated.\n• TreatmentsHub is a comparison site, not a medical provider. This is general information, not medical advice.\n• Prescription treatment needs an evaluation by a licensed clinician, who decides whether it's right for you.\n• Online therapy isn't an emergency service. In a crisis, call or text 988 (Suicide & Crisis Lifeline) or call 911.\n• Platform policies change; confirm coverage with your plan or 1-800-MEDICARE.\n• We may earn a commission from partner links. It never affects our rankings.\nHow we rank: https://www.treatmentshub.com/weight-loss/how-we-rank\n\n#Medicare #OnlineTherapy #Shorts",
+  "tags": [
+    "medicare online therapy",
+    "does medicare cover therapy",
+    "medicare telehealth",
+    "medicare open enrollment",
+    "online therapy medicare",
+    "talkspace medicare",
+    "talkiatry",
+    "headspace therapy",
+    "betterhelp medicare",
+    "medicare part b",
+    "therapy for seniors",
+    "telehealth 2027",
+    "treatmentshub"
+  ],
+  "category_id": "26",
+  "synthetic_media": true,
+  "script": [
+    {
+      "say": "Hey guys! Did you know Medicare covers therapy by video, from your own home? Here's what to know before open enrollment ends.",
+      "show": "presenter"
+    },
+    {
+      "say": "Medicare Part B covers therapy by video from home, at the same price as an in-person visit, through at least December 31st, 2027. With Original Medicare you pay twenty percent after the Part B deductible.",
+      "show": "points",
+      "kicker": "Medicare Part B",
+      "title": "Video therapy is covered",
+      "points": [
+        "Covered by video from home through at least Dec 31, 2027",
+        "Same price as an in-person visit",
+        "Original Medicare: 20% after the Part B deductible ($283 in 2026)"
+      ]
+    },
+    {
+      "say": "But the platform has to take Medicare. Talkspace and Talkiatry say they take Original Medicare. Headspace works only through some Medicare Advantage plans. BetterHelp says it doesn't accept Medicare.",
+      "show": "compare",
+      "title": "Which platforms take it?",
+      "label": "Per each company's own help pages",
+      "rows": [
+        [
+          "Talkspace",
+          "Original Medicare, all 50 states + DC"
+        ],
+        [
+          "Talkiatry",
+          "Original Medicare; psychiatry & medication"
+        ],
+        [
+          "Headspace",
+          "Select Medicare Advantage plans only"
+        ],
+        [
+          "BetterHelp",
+          "Doesn't accept Medicare"
+        ]
+      ]
+    },
+    {
+      "say": "Open enrollment ends December 7th. If you use online therapy, check your plan's network and copays before then.",
+      "show": "presenter"
+    },
+    {
+      "say": "If you're struggling right now, call or text 9 8 8. The full guide is on treatments hub dot com.",
+      "show": "presenter"
+    }
+  ],
+  "end": {
+    "headline": "Medicare & online therapy, explained",
+    "url": "treatmentshub.com/online-therapy"
+  },
+  "source_note": "Source: our guide, Does Medicare Cover Online Therapy?",
+  "music": "bed.mp3"
+}

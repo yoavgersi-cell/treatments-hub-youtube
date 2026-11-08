@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-15-ozempic-hair-loss-studies",
+  "vertical": "hair-loss",
+  "title": "Ozempic Hair Loss: What the 2026 Studies Actually Found (and What Helps)",
+  "description": "New 2026 studies link Ozempic, Wegovy and Zepbound to a modestly higher risk of hair loss. Why the shedding happens, whether it's permanent, and what helps.\n\nKey facts:\n• BMJ (July 2026): adults with type 2 diabetes on GLP-1s were 1.37 to 1.68 times as likely to be diagnosed with hair loss as those on other diabetes drugs; the extra risk is about 2-3 cases per 1,000 person-years\n• NYU Langone (Sept 2026): higher GLP-1 receptor gene activity linked to about 7% higher odds of male-pattern hair loss (genetic association only)\n• Most cases look like telogen effluvium, a temporary shed after rapid weight loss\n\nSources: https://bmjgroup.com/glp-1-diabetes-drugs-linked-to-increased-risk-of-hair-loss/ · https://nyulangone.org/news/some-hair-loss-men-linked-use-weight-loss-drugs · https://www.sciencemediacentre.org/expert-reaction-to-a-target-trial-emulation-study-on-risk-of-hair-loss-associated-with-glp-1-ras-in-adults-with-type-2-diabetes/\n\nFull guide: https://www.treatmentshub.com/hair-loss/articles/glp1-hair-loss\n\nImportant:\n• The presenter in this video is AI-generated.\n• TreatmentsHub is a comparison site, not a medical provider. This is general information, not medical advice.\n• Prescription treatment needs an evaluation by a licensed clinician, who decides whether it's right for you.\n• Talk to your prescriber before changing or stopping any medication. See a dermatologist for patchy loss, scalp symptoms or shedding that doesn't ease.\n• We may earn a commission from partner links. It never affects our rankings.\nHow we rank: https://www.treatmentshub.com/weight-loss/how-we-rank\n\n#Ozempic #HairLoss #Shorts",
+  "tags": [
+    "ozempic hair loss",
+    "glp-1 hair loss",
+    "wegovy hair loss",
+    "zepbound hair loss",
+    "semaglutide hair loss",
+    "tirzepatide hair loss",
+    "telogen effluvium",
+    "hair shedding",
+    "hair loss weight loss",
+    "ozempic side effects",
+    "glp-1 side effects",
+    "treatmentshub"
+  ],
+  "category_id": "26",
+  "synthetic_media": true,
+  "script": [
+    {
+      "say": "Hey guys! Losing hair on Ozempic, Wegovy or Zepbound? Here's what the 2026 studies actually found.",
+      "show": "presenter"
+    },
+    {
+      "say": "A July 2026 BMJ study found people with type 2 diabetes on GLP-1s were between 1.37 and 1.68 times as likely to be diagnosed with hair loss. But the extra risk is small: roughly two or three cases per thousand people a year.",
+      "show": "points",
+      "kicker": "The studies",
+      "title": "Linked, but modestly",
+      "points": [
+        "BMJ, Jul 2026: 1.37-1.68x as likely to be diagnosed",
+        "Extra risk: about 2-3 cases per 1,000 people a year",
+        "An association, not proof the drug causes it"
+      ]
+    },
+    {
+      "say": "Most of it looks like telogen effluvium: a temporary shed triggered by fast weight loss and eating less. It usually grows back once your weight steadies.",
+      "show": "points",
+      "kicker": "Why it happens",
+      "title": "Usually a temporary shed",
+      "points": [
+        "Telogen effluvium, not follicle damage",
+        "Triggered by fast weight loss and eating less",
+        "Usually settles once weight steadies"
+      ]
+    },
+    {
+      "say": "What helps: eat enough protein, lose weight at a steadier pace, and check your iron. And don't stop your GLP-1 on your own.",
+      "show": "points",
+      "kicker": "What helps",
+      "title": "Protect your hair",
+      "points": [
+        "Eat enough protein",
+        "Lose weight at a steadier pace",
+        "Get your iron checked",
+        "Don't stop your GLP-1 on your own"
+      ]
+    },
+    {
+      "say": "Receding hairline or thinning crown? That's pattern loss, and it needs its own treatment. Full breakdown on treatments hub dot com.",
+      "show": "presenter"
+    }
+  ],
+  "end": {
+    "headline": "GLP-1s & hair loss, explained",
+    "url": "treatmentshub.com/hair-loss"
+  },
+  "source_note": "Source: our guide, Ozempic Hair Loss: What 2026 Studies Show",
+  "music": "bed.mp3"
+}

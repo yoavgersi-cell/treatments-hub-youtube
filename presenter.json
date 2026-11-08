@@ -1,0 +1,8 @@
+{
+  "_note": "Pick avatar_id from catalog/avatars.md and voice_id from catalog/voices.md (run the 'HeyGen presenter catalog' workflow first). The presenter must never be presented as a doctor or clinician.",
+  "avatar_id": "",
+  "voice_id": "",
+  "speed": 1.05,
+  "locale": "en-US",
+  "background": "#0C4B75"
+}

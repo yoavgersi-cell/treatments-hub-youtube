@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-14-hrt-top3-compared",
+  "vertical": "hrt",
+  "title": "Winona vs Midi Health vs Gala: Online Menopause HRT Compared",
+  "description": "Winona, Midi Health and Gala compared on how the visit works, insurance versus cash, and how your medication arrives.\n\nWhat we compared:\n• Winona: dedicated to menopause and perimenopause; all-online intake with no video call; free physician consultation, pay only if prescribed; cash-pay; discreet home delivery in under 5 days\n• Midi Health: clinicians trained in midlife women's health; video visits; hormonal and non-hormonal paths; works with many major insurance plans; medication through your pharmacy benefit\n• Gala: 100% online telehealth visit; no insurance needed, FSA/HSA accepted, cancel anytime; free discreet 1-2 day shipping\n\nProvider details as listed in our reviews (updated Oct 8, 2026). Insurance participation varies by state and plan.\n\nFull guide: https://www.treatmentshub.com/hrt\nThe comparison page this video is based on was reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (medical content reviewer) on Oct 30, 2026.\n\nImportant:\n• The presenter in this video is AI-generated.\n• TreatmentsHub is a comparison site, not a medical provider. This is general information, not medical advice.\n• Prescription treatment needs an evaluation by a licensed clinician, who decides whether it's right for you.\n• HRT carries real risks, including blood clots and stroke; a licensed clinician decides whether it's appropriate for you.\n• Compounded hormone formulations are not individually FDA-approved products.\n• We may earn a commission from partner links. It never affects our rankings.\nHow we rank: https://www.treatmentshub.com/weight-loss/how-we-rank\n\n#Menopause #HRT #Shorts",
+  "tags": [
+    "hrt",
+    "menopause hrt",
+    "hormone replacement therapy",
+    "online menopause treatment",
+    "perimenopause",
+    "winona",
+    "midi health",
+    "gala hrt",
+    "menopause symptoms",
+    "estradiol",
+    "menopause telehealth",
+    "hrt insurance",
+    "treatmentshub"
+  ],
+  "category_id": "26",
+  "synthetic_media": true,
+  "script": [
+    {
+      "say": "Hey guys! Menopause symptoms and looking at HRT online? Here's how our top three providers compare.",
+      "show": "presenter"
+    },
+    {
+      "say": "The visit. Winona is all online, with a free physician consultation. Midi Health has clinicians trained in midlife women's health, with video visits. Gala is a hundred percent online telehealth.",
+      "show": "compare",
+      "title": "How the visit works",
+      "label": "The visit",
+      "rows": [
+        [
+          "Winona",
+          "All online, no video call; free physician consultation"
+        ],
+        [
+          "Midi Health",
+          "Midlife-trained clinicians; video visits"
+        ],
+        [
+          "Gala",
+          "100% online telehealth visit"
+        ]
+      ]
+    },
+    {
+      "say": "Insurance. Midi works with many major insurance plans. Winona is cash-pay. Gala needs no insurance and accepts FSA and HSA.",
+      "show": "compare",
+      "title": "Insurance or cash?",
+      "label": "Paying for it",
+      "rows": [
+        [
+          "Winona",
+          "Cash-pay; no insurance path"
+        ],
+        [
+          "Midi Health",
+          "Works with many major insurance plans"
+        ],
+        [
+          "Gala",
+          "No insurance needed; FSA/HSA accepted"
+        ]
+      ]
+    },
+    {
+      "say": "Delivery. Winona delivers in under five days, Gala ships free in one to two days, and with Midi your medication goes through your pharmacy benefit.",
+      "show": "compare",
+      "title": "Getting your medication",
+      "label": "Delivery",
+      "rows": [
+        [
+          "Winona",
+          "Discreet home delivery in under 5 days"
+        ],
+        [
+          "Midi Health",
+          "Through your pharmacy benefit"
+        ],
+        [
+          "Gala",
+          "Free discreet 1-2 day shipping"
+        ]
+      ]
+    },
+    {
+      "say": "HRT isn't right for everyone, and a licensed clinician decides. Full comparison, reviewed for medical accuracy, at treatments hub dot com.",
+      "show": "presenter"
+    }
+  ],
+  "end": {
+    "headline": "Compare online menopause care",
+    "url": "treatmentshub.com/hrt"
+  },
+  "source_note": "Source: treatmentshub.com/hrt · page reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (Oct 30, 2026)",
+  "music": "bed.mp3"
+}

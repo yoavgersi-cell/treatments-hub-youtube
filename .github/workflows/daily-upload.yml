@@ -3,7 +3,12 @@ name: Daily YouTube Short
 on:
   schedule:
     - cron: "17 15 * * *"   # 15:17 UTC daily (10:17 ET)
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      preview:
+        description: "Queue folder to PREVIEW (build only, no upload). Leave empty to publish the next due Short."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -15,6 +20,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - name: Install ffmpeg
@@ -23,16 +29,30 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q pillow
-      - name: Build and upload the next Short
+      - name: Build (and upload) the Short
         env:
+          HEYGEN_API_KEY: ${{ secrets.HEYGEN_API_KEY }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           YT_PRIVACY: ${{ vars.YT_PRIVACY || 'private' }}
-        run: python scripts/publish_next.py
-      - name: Record what was published
+          PREVIEW: ${{ inputs.preview }}
+        run: |
+          if [ -n "$PREVIEW" ]; then python scripts/publish_next.py --preview "$PREVIEW"; else python scripts/publish_next.py; fi
+      - name: Keep the preview video for download
+        if: ${{ inputs.preview != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-${{ inputs.preview }}
+          path: queue/${{ inputs.preview }}/video.mp4
+          if-no-files-found: ignore
+          retention-days: 14
+      # Runs even after a failure so heygen.json (the render id) is kept and a
+      # retry downloads the finished render instead of paying for a new one.
+      - name: Record state
+        if: always()
         run: |
           git config user.name "treatments-hub-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A queue published
-          git diff --cached --quiet || (git commit -m "Published $(date -u +%F) Short" && git push)
+          git diff --cached --quiet || (git commit -m "Shorts state $(date -u +%F)" && git pull --rebase -q && git push)

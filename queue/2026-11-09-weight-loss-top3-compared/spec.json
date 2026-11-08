@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-09-weight-loss-top3-compared",
+  "vertical": "weight-loss",
+  "title": "embody vs Eden vs altRx: Online GLP-1 Providers Compared (Not Just Price)",
+  "description": "How the top three online GLP-1 providers on TreatmentsHub compare on what matters beyond price: commitment, medication options, support and shipping.\n\nWhat we compared:\n• embody: month-to-month, no contract; compounded medications only; dedicated nursing team and 1:1 medical support; free 1-2 day shipping\n• Eden: one all-inclusive price, no membership or long-term plans; compounded only; doctor-guided care with 24/7 human support\n• altRx: monthly, no contract; brand-name Zepbound and Wegovy options too; clinician-guided (physician, PA or NP); free shipping in about 5-7 days\n\nProvider details as listed in our reviews (updated Sep-Oct 2026). Confirm current terms on each provider's site.\n\nFull guide: https://www.treatmentshub.com/weight-loss\nThe comparison page this video is based on was reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (medical content reviewer) on Oct 30, 2026.\n\nImportant:\n• The presenter in this video is AI-generated.\n• TreatmentsHub is a comparison site, not a medical provider. This is general information, not medical advice.\n• Prescription treatment needs an evaluation by a licensed clinician, who decides whether it's right for you.\n• Compounded GLP-1 medications are not FDA-approved.\n• We may earn a commission from partner links. It never affects our rankings.\nHow we rank: https://www.treatmentshub.com/weight-loss/how-we-rank\n\n#GLP1 #WeightLoss #Shorts",
+  "tags": [
+    "glp-1",
+    "glp1 provider",
+    "best online glp-1 provider",
+    "embody",
+    "eden",
+    "altrx",
+    "compounded semaglutide",
+    "compounded tirzepatide",
+    "zepbound",
+    "wegovy",
+    "online weight loss",
+    "weight loss medication online",
+    "semaglutide",
+    "tirzepatide",
+    "telehealth weight loss",
+    "glp-1 comparison",
+    "treatmentshub"
+  ],
+  "category_id": "26",
+  "synthetic_media": true,
+  "script": [
+    {
+      "say": "Hey guys! Choosing an online GLP-1 provider? Don't just compare prices. Here's how our top three actually differ.",
+      "show": "presenter"
+    },
+    {
+      "say": "First, commitment. embody is month to month, Eden has one all-inclusive price with no membership, and alt R X is monthly with no contract.",
+      "show": "compare",
+      "title": "No long contracts",
+      "label": "Plan & commitment",
+      "rows": [
+        [
+          "embody",
+          "Month-to-month, no contract"
+        ],
+        [
+          "Eden",
+          "One all-inclusive price, no membership"
+        ],
+        [
+          "altRx",
+          "Monthly, no contract; pause or cancel anytime"
+        ]
+      ]
+    },
+    {
+      "say": "Second, medication. embody and Eden offer compounded options only. alt R X also offers brand-name Zepbound and Wegovy.",
+      "show": "compare",
+      "title": "Brand-name or compounded?",
+      "label": "Medication options",
+      "rows": [
+        [
+          "embody",
+          "Compounded medications only"
+        ],
+        [
+          "Eden",
+          "Compounded only"
+        ],
+        [
+          "altRx",
+          "Brand-name options too: Zepbound and Wegovy"
+        ]
+      ]
+    },
+    {
+      "say": "Third, support. embody has a dedicated nursing team, Eden offers 24/7 human support, and alt R X is clinician-guided.",
+      "show": "compare",
+      "title": "Who's in your corner",
+      "label": "Support",
+      "rows": [
+        [
+          "embody",
+          "Dedicated nursing team, 1:1 medical support"
+        ],
+        [
+          "Eden",
+          "Doctor-guided care, 24/7 human support"
+        ],
+        [
+          "altRx",
+          "Physician, PA or nurse practitioner"
+        ]
+      ]
+    },
+    {
+      "say": "Shipping? embody ships free in one to two days. alt R X takes about five to seven.",
+      "show": "presenter"
+    },
+    {
+      "say": "The full side-by-side, reviewed for medical accuracy, is on treatments hub dot com.",
+      "show": "presenter"
+    }
+  ],
+  "end": {
+    "headline": "Compare GLP-1 providers side by side",
+    "url": "treatmentshub.com/weight-loss"
+  },
+  "source_note": "Source: treatmentshub.com/weight-loss · page reviewed for medical accuracy by Francheska Capistrano, RMT, MPH (Oct 30, 2026)",
+  "music": "bed.mp3"
+}
