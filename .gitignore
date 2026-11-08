@@ -3,5 +3,6 @@ __pycache__/
 .DS_Store
 presenter.mp4
 node_modules/
-capture/page.png
-voice/*.wav
+# per-run caches: always captured / spoken fresh in Actions
+**/capture/
+**/voice/
